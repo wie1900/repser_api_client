@@ -46,7 +46,8 @@ Due to performance issues (it is recommended to send to API up to 500-elements a
  
 For security reasons Ajax requests are calls to intern Laravel functionality on the same server (used here as middleware between Client’s front-end and remote API on the other server). This way sensitive data like Bearer token required by Repser API or API endpoints URLs are secured.
 
-![Client architecture schema](resources/assets/images/home.gif)
+![Client architecture schema](resources/assets/images/secure.png)
+
 The main data manager is **[Postman](resources/js/reps/postman.js)**-class:
 ```
 +---resources
