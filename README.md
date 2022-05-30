@@ -79,5 +79,5 @@ Sensitive data like API endpoints addresses and the required token are provided 
 
 ## Working version
 
-The working version is available (required login email / password: user@user.com / user) at:
+The working version is available (required email / password: user@user.com / user) at:
 [https://reps.deadygo.com](https://reps.deadygo.com)
