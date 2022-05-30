@@ -38,7 +38,7 @@ The application is composed of three layers:
 
 __Login__
 
-Access to application site is possible only for authorized users (existing in local SQLite database). Hence, first you must log-in with email and password.  
+Access to application site is possible only for authenticated users (existing in local SQLite database). Hence, first you must log-in with email and password.  
 
 __Front-end__
 
