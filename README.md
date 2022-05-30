@@ -58,14 +58,14 @@ The main data manager is **[Postman](resources/js/reps/postman.js)**-class:
 |   |   |   |   statusworker.js
 ```
 
-__Postman__ is responsible for processing of source and glossary arrays, creating Ajax requests, sending and receiving arrays to and from the API and updating interface elements with processed data:
+__Postman__ is responsible for processing of source and glossary arrays, creating Ajax requests, sending and receiving arrays to and from the API (indirectly) and updating interface elements with processed data:
 - Source text input field
 - Glossary input field
 - two status divs for status alerts  
 
 __Back-end__
 
-Requests to the Repser API are performed in **[ClientController](app/Http/Controllers/ClientController.php)** accordingly to called routes:
+Requests to the Repser API are performed in **[ClientController](app/Http/Controllers/ClientController.php)** accordingly to routes called by Ajax-requests:
 - /getglossary (for array processing)
 - /getfile (for saving reduced array as TTX/XLIFF-file)
 
