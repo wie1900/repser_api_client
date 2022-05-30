@@ -74,8 +74,7 @@ Sensitive data like API endpoints addresses and the required token are provided 
 
 ## What was used
 - Laravel 9 + UI auth
-- Bootstrap 5
-- Javascript + jQuery (Ajax requests)
+- Bootstrap 5 + Javascript + jQuery (Ajax requests)
 - PHP 8
 
 ## Working version
