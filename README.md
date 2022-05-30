@@ -1,7 +1,7 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 
-# Repser API Cient
+# Repser API Client
 The Repser Client lets use Repser API ([Repser API]( https://github.com/wie1900/api_repser)) to reduce array of items to array containing unique elements only. 
 
 __Real-life example:__
