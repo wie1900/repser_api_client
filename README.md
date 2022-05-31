@@ -73,7 +73,7 @@ Requests to the Repser API are performed in **[ClientController](app/Http/Contro
 Sensitive data like API endpoints addresses and the required token are provided by **[ApiGuard](app/Custom/ApiGuard.php)** class.
 
 ## What was used
-- Laravel 9 + UI auth
+- Laravel 9 + UI authentication
 - Bootstrap 5 + Javascript + jQuery (Ajax requests)
 - PHP 8
 
